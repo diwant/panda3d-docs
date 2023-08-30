@@ -43,7 +43,8 @@ the lerp.
       The model whose position is being changed.
 
    duration
-      The duration of the lerp in seconds.
+      The duration of the lerp in seconds.  The smallest duration that can be
+      provided is 0.001 seconds
 
    pos
       The model's target position (the new position it will move to). Usually
